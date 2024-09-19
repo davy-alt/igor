@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 2000px;
+}
+
+.pai{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+    z-index: 1;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 50%;
+    left: 100px;
+    z-index: 0;
+}
+
+.navbar{
+    height: 50px;
+    background-color: cadetblue;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
