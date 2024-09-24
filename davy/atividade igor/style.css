@@ -55,3 +55,36 @@ margin: 0;
     align-self: flex-end;
 }
 
+.card-teambuilder{
+    display: inline-block;
+    box-shadow: 10px 10px 49px 12px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 30px;
+    border-top: 5px solid var(--Red);
+    position: relative;
+    left: 530px;
+    top: 50px;
+    
+}
+
+.card-calculator{
+    display: inline-block;
+    box-shadow: 10px 10px 49px 12px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 30px;
+    border-top: 5px solid var(--Blue);
+    position: relative;
+    left: 570px;
+    top: 220px;
+}
+
+.card-karma{
+    display: inline-block;
+    box-shadow: 10px 10px 49px 12px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 30px;
+    border-top: 5px solid var(--Orange);
+    position: relative;
+    right: 200px;
+    top: 330px;
+}
